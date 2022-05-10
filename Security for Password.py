@@ -1,8 +1,12 @@
 import imp
+import os
 import pyautogui
 from termcolor import colored
+import time
 
-password = "YOUR_PASSWORD_HERE"
+os.system('color')
+
+password = "idhant@007"
 project_start = False
 
 confirm = pyautogui.prompt("Your Password?")
@@ -52,4 +56,4 @@ while project_start:
     print(Idhant.followers, Taylor.followers, Shawn.followers, Justin.followers)
     break
 
-
+time.sleep(6)
