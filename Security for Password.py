@@ -2,10 +2,10 @@ import imp
 import pyautogui
 from termcolor import colored
 
-password = "idhant@007"
+password = "YOUR_PASSWORD_HERE"
 project_start = False
 
-confirm = pyautogui.prompt("Your Password?").lower()
+confirm = pyautogui.prompt("Your Password?")
 if confirm == password:
     pyautogui.alert("You Entered the Right Passoword, get the Administrator Rights :P")
     print(colored("Administrator Rights Granted!", "green"))
