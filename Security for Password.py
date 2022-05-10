@@ -3,6 +3,7 @@ import os
 import pyautogui
 from termcolor import colored
 import time
+# import file
 
 os.system('color')
 
@@ -36,24 +37,26 @@ while project_start:
             self.following += 1
 
 
-    Idhant = Instagram("6", "Idhant Singh")
-    Taylor = Instagram("7", "Taylor Swift")
-    Shawn = Instagram("8", "Shawn Mendes")
-    Justin = Instagram("9", "Justin Bieber")
+    Idhant = Instagram("0", "Idhant Singh")
+    Taylor = Instagram("1", "Taylor Swift")
+    Shawn = Instagram("2", "Shawn Mendes")
+    Justin = Instagram("3", "Justin Bieber")
+    Ariana = Instagram("4", "Ariana Grande")
 
-    print(Idhant.following, Taylor.following, Shawn.following, Justin.following)
-    print(Idhant.followers, Taylor.followers, Shawn.followers, Justin.followers)
+    print(Idhant.following, Taylor.following, Shawn.following, Justin.following, Ariana.following)
+    print(Idhant.followers, Taylor.followers, Shawn.followers, Justin.followers, Ariana.followers)
     print(Idhant.username, Taylor.username, Shawn.username, Justin.username)
-    print(Idhant.id, Taylor.id, Shawn.id, Justin.id)
+    print(Idhant.id, Taylor.id, Shawn.id, Justin.id, Ariana.id)
 
     Idhant.follow(Taylor)
     Idhant.follow(Shawn)
     Justin.follow(Idhant)
-    # Shawn.follow(Taylor)
-    # Taylor.follow(Idhant)
+    Taylor.follow(Ariana)
+    Shawn.follow(Taylor)
+    Taylor.follow(Idhant)
 
-    print(Idhant.following, Taylor.following, Shawn.following, Justin.following)
-    print(Idhant.followers, Taylor.followers, Shawn.followers, Justin.followers)
+    print(Idhant.following, Taylor.following, Shawn.following, Justin.following, Ariana.following)
+    print(Idhant.followers, Taylor.followers, Shawn.followers, Justin.followers, Ariana.followers)
     break
 
 time.sleep(6)
