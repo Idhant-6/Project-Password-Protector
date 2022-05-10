@@ -3,7 +3,7 @@ import os
 import pyautogui
 from termcolor import colored
 import time
-# import file
+
 
 os.system('color')
 
