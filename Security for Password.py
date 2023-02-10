@@ -21,6 +21,8 @@ elif confirm != password:
         "You entered the Wrong Password... Try Again if you know the password??")
     print(colored("Administrator Rights didn't Granted...Try Again...", "red"))
     project_start = False
+else:
+    print("Invalid Input, Please input the password again...")
 
 
 while project_start:
