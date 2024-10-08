@@ -31,6 +31,6 @@
 ### And If you Enjoyed All That, Then Star This Repository! 🌟
 
 
-##### Initial Owner -- [@Popstar Idhant](https://github.com/Idhant-6)
+##### The guy who made this program -- [@Popstar Idhant](https://github.com/Idhant-6)
 [![](https://img.shields.io/badge/Owner-@Idhant--6-purple?logo=github)](https://github.com/Idhant-6)
 
